@@ -1,8 +1,10 @@
+//Classe abstrata que será extendida por Vendedor e Cliente
 abstract public class Dados implements Cadastrar {
-    private String nome;
-    private int CPF;
+    protected String nome;
+    protected int CPF;
 
-    public Dados(String nome, int CPF) {
+    //Construtor
+    public Dados(String nome) {
         this.nome = nome;
         this.CPF = CPF;
     }

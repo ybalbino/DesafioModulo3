@@ -33,7 +33,7 @@ public class Main {
         }
         //Criando Venda
         Venda venda1 = new Venda(cliente1,vendedor1,700.00);
-        Venda venda2 = new Venda(cliente2,vendedor2,300.00);
+        Venda venda2 = new Venda(cliente2,vendedor2,200.00);
         Venda venda3 = new Venda(cliente3,vendedor3,150.00);
 
         //Cadastrando Venda
@@ -41,8 +41,8 @@ public class Main {
         vendas.add(venda1);
         vendas.add(venda2);
         vendas.add(venda3);
-        for (Cadastrar vendas : vendas){
-            vendas.cadastro();
+        for (Cadastrar venda : vendas) {
+            venda.cadastro();
         }
     }
 }

@@ -1,6 +1,6 @@
 public class Cliente extends Dados{
     public Cliente(String nome) {
-        super();
+        super(nome);
     }
     public void Cadastrar(){
         System.out.println("Cadastro Cliente "+ nome);

@@ -1,4 +1,4 @@
-public class Venda {
+public class Venda implements Cadastrar{
     private Cliente cliente;
     private Vendedor vendedor;
     private double valor;
@@ -10,5 +10,10 @@ public class Venda {
     }
     public void Cadastrar(){
         System.out.println("Cadastro Venda: Cliente: " + this.cliente+ ", Vendedor: "+this.vendedor+", Valor: "+this.valor);
+    }
+
+    @Override
+    public void cadastro() {
+
     }
 }
