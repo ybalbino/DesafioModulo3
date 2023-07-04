@@ -8,12 +8,9 @@ public class Venda implements Cadastrar{
         this.vendedor = vendedor;
         this.valor = valor;
     }
-    public void Cadastrar(){
-        System.out.println("Cadastro Venda: Cliente: " + this.cliente+ ", Vendedor: "+this.vendedor+", Valor: "+this.valor);
-    }
 
     @Override
     public void cadastro() {
-
+        System.out.printf("Cadastro Venda: \n Cliente: %s Vendedor: %s Valor: R$ %.2f \n", this.cliente.nome , this.vendedor.nome ,this.valor);
     }
 }

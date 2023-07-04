@@ -15,6 +15,7 @@ public class Main {
         vendedores.add(vendedor1);
         vendedores.add(vendedor2);
         vendedores.add(vendedor3);
+        System.out.println("Vendedores: ");
         for (Cadastrar vendedor : vendedores){
             vendedor.cadastro();
         }
@@ -28,6 +29,7 @@ public class Main {
         clientes.add(cliente1);
         clientes.add(cliente2);
         clientes.add(cliente3);
+        System.out.println("Clientes: ");
         for (Cadastrar cliente : clientes){
             cliente.cadastro();
         }
@@ -44,5 +46,6 @@ public class Main {
         for (Cadastrar venda : vendas) {
             venda.cadastro();
         }
+
     }
 }

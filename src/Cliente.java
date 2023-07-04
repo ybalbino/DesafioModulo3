@@ -8,6 +8,6 @@ public class Cliente extends Dados{
 
     @Override
     public void cadastro() {
-
+        System.out.println(this.nome);
     }
 }

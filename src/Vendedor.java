@@ -9,6 +9,6 @@ public class Vendedor extends Dados{
 
     @Override
     public void cadastro() {
-
+        System.out.println(this.nome);
     }
 }

@@ -1,4 +1,4 @@
-//Classe abstrata que será extendida por Vendedor e Cliente
+//Classe abstrata que será extendida por Vendedor e Cliente e Venda
 abstract public class Dados implements Cadastrar {
     protected String nome;
     protected int CPF;
