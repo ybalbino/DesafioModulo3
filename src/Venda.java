@@ -3,6 +3,7 @@ public class Venda implements Cadastrar{
     private Vendedor vendedor;
     private double valor;
 
+    //construtor da propria Venda
     public Venda (Cliente cliente, Vendedor vendedor, double valor){
         this.cliente = cliente;
         this.vendedor = vendedor;
